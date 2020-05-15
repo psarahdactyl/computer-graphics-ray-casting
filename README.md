@@ -174,7 +174,7 @@ See
 Construct a viewing ray given a camera and subscripts to a pixel.
 
 ### `src/first_hit.cpp`
-Find the first (visible) hit given a ray and a collection of scene objects
+Find the first (visible) hit given a ray and a collection of scene objects.
 
 ### `Sphere::intersect_ray` in `src/Sphere.cpp`
 Intersect a sphere with a ray.
@@ -182,14 +182,17 @@ Intersect a sphere with a ray.
 ### `Plane::intersect_ray` in `src/Plane.cpp`
 Intersect a plane with a ray.
 
+(sphere and plane Object ID image)
 ![Running `./raycasting` should produce `id.ppm` that looks like this.](images/sphere-and-plane-id.png)
 
+(sphere and plane Depth image)
 ![Running `./raycasting` should produce `depth.ppm` that looks like this.](images/sphere-and-plane-depth.png)
 
+(sphere and plane Normal image)
 ![Running `./raycasting` should produce `normal.ppm` that looks like this.](images/sphere-and-plane-normal.png)
 
 ### `Triangle::intersect_ray` in `src/Triangle.cpp`
-Intersect a triangle with a ray.
+Intersect a triangle with a ray. This is the Object ID image for a single triangle.
 
 ![Running `./raycasting ../data/triangle.json` should produce `id.ppm` that looks like this.](images/triangle-id.png)
 
