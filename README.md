@@ -180,15 +180,19 @@ Find the first (visible) hit given a ray and a collection of scene objects.
 Intersect a sphere with a ray.
 
 ### `Plane::intersect_ray` in `src/Plane.cpp`
-Intersect a plane with a ray.
+Intersect a plane with a ray. 
 
-(sphere and plane Object ID image)
+Once you've implemented intersection tests for Planes and Spheres, you will be able 
+to produce the following images. This shows the sphere and plane Object ID image.
+
 ![Running `./raycasting` should produce `id.ppm` that looks like this.](images/sphere-and-plane-id.png)
 
-(sphere and plane Depth image)
+This shows sphere and plane Depth image.
+
 ![Running `./raycasting` should produce `depth.ppm` that looks like this.](images/sphere-and-plane-depth.png)
 
-(sphere and plane Normal image)
+This shows sphere and plane Normal image.
+
 ![Running `./raycasting` should produce `normal.ppm` that looks like this.](images/sphere-and-plane-normal.png)
 
 ### `Triangle::intersect_ray` in `src/Triangle.cpp`
